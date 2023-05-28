@@ -3,11 +3,9 @@
 class Field
 {
 private:
-	//Массив значений поля
+	//ГЊГ Г±Г±ГЁГў Г§Г­Г Г·ГҐГ­ГЁГ© ГЇГ®Г«Гї
 	double* values;
-	//Размеры поля
-	int x;
-	int y;
+	//ГђГ Г§Г¬ГҐГ°Г» ГЇГ®Г«Гї
 public:
 	Field();
 	void set(int N, int M);
